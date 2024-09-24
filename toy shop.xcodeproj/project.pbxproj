@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52E9A34F2C79174C00774B23 /* toy_shopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E9A34E2C79174C00774B23 /* toy_shopApp.swift */; };
+		52E9A3512C79174C00774B23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E9A3502C79174C00774B23 /* ContentView.swift */; };
+		52E9A3532C79174E00774B23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E9A3522C79174E00774B23 /* Assets.xcassets */; };
+		52E9A3562C79174E00774B23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E9A3552C79174E00774B23 /* Preview Assets.xcassets */; };
+		52E9A3602C79174F00774B23 /* toy_shopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E9A35F2C79174F00774B23 /* toy_shopTests.swift */; };
+		52E9A36A2C79174F00774B23 /* toy_shopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E9A3692C79174F00774B23 /* toy_shopUITests.swift */; };
+		52E9A36C2C79174F00774B23 /* toy_shopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E9A36B2C79174F00774B23 /* toy_shopUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52E9A35C2C79174F00774B23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52E9A3432C79174C00774B23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52E9A34A2C79174C00774B23;
+			remoteInfo = "toy shop";
+		};
+		52E9A3662C79174F00774B23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52E9A3432C79174C00774B23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52E9A34A2C79174C00774B23;
+			remoteInfo = "toy shop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52E9A34B2C79174C00774B23 /* toy shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "toy shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E9A34E2C79174C00774B23 /* toy_shopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toy_shopApp.swift; sourceTree = "<group>"; };
+		52E9A3502C79174C00774B23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52E9A3522C79174E00774B23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52E9A3552C79174E00774B23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52E9A35B2C79174F00774B23 /* toy shopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "toy shopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E9A35F2C79174F00774B23 /* toy_shopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toy_shopTests.swift; sourceTree = "<group>"; };
+		52E9A3652C79174F00774B23 /* toy shopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "toy shopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E9A3692C79174F00774B23 /* toy_shopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toy_shopUITests.swift; sourceTree = "<group>"; };
+		52E9A36B2C79174F00774B23 /* toy_shopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toy_shopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52E9A3482C79174C00774B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E9A3582C79174F00774B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E9A3622C79174F00774B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52E9A3422C79174C00774B23 = {
+			isa = PBXGroup;
+			children = (
+				52E9A34D2C79174C00774B23 /* toy shop */,
+				52E9A35E2C79174F00774B23 /* toy shopTests */,
+				52E9A3682C79174F00774B23 /* toy shopUITests */,
+				52E9A34C2C79174C00774B23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52E9A34C2C79174C00774B23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52E9A34B2C79174C00774B23 /* toy shop.app */,
+				52E9A35B2C79174F00774B23 /* toy shopTests.xctest */,
+				52E9A3652C79174F00774B23 /* toy shopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52E9A34D2C79174C00774B23 /* toy shop */ = {
+			isa = PBXGroup;
+			children = (
+				52E9A34E2C79174C00774B23 /* toy_shopApp.swift */,
+				52E9A3502C79174C00774B23 /* ContentView.swift */,
+				52E9A3522C79174E00774B23 /* Assets.xcassets */,
+				52E9A3542C79174E00774B23 /* Preview Content */,
+			);
+			path = "toy shop";
+			sourceTree = "<group>";
+		};
+		52E9A3542C79174E00774B23 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52E9A3552C79174E00774B23 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52E9A35E2C79174F00774B23 /* toy shopTests */ = {
+			isa = PBXGroup;
+			children = (
+				52E9A35F2C79174F00774B23 /* toy_shopTests.swift */,
+			);
+			path = "toy shopTests";
+			sourceTree = "<group>";
+		};
+		52E9A3682C79174F00774B23 /* toy shopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52E9A3692C79174F00774B23 /* toy_shopUITests.swift */,
+				52E9A36B2C79174F00774B23 /* toy_shopUITestsLaunchTests.swift */,
+			);
+			path = "toy shopUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52E9A34A2C79174C00774B23 /* toy shop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E9A36F2C79174F00774B23 /* Build configuration list for PBXNativeTarget "toy shop" */;
+			buildPhases = (
+				52E9A3472C79174C00774B23 /* Sources */,
+				52E9A3482C79174C00774B23 /* Frameworks */,
+				52E9A3492C79174C00774B23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "toy shop";
+			productName = "toy shop";
+			productReference = 52E9A34B2C79174C00774B23 /* toy shop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52E9A35A2C79174F00774B23 /* toy shopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E9A3722C79174F00774B23 /* Build configuration list for PBXNativeTarget "toy shopTests" */;
+			buildPhases = (
+				52E9A3572C79174F00774B23 /* Sources */,
+				52E9A3582C79174F00774B23 /* Frameworks */,
+				52E9A3592C79174F00774B23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52E9A35D2C79174F00774B23 /* PBXTargetDependency */,
+			);
+			name = "toy shopTests";
+			productName = "toy shopTests";
+			productReference = 52E9A35B2C79174F00774B23 /* toy shopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52E9A3642C79174F00774B23 /* toy shopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E9A3752C79174F00774B23 /* Build configuration list for PBXNativeTarget "toy shopUITests" */;
+			buildPhases = (
+				52E9A3612C79174F00774B23 /* Sources */,
+				52E9A3622C79174F00774B23 /* Frameworks */,
+				52E9A3632C79174F00774B23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52E9A3672C79174F00774B23 /* PBXTargetDependency */,
+			);
+			name = "toy shopUITests";
+			productName = "toy shopUITests";
+			productReference = 52E9A3652C79174F00774B23 /* toy shopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52E9A3432C79174C00774B23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					52E9A34A2C79174C00774B23 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					52E9A35A2C79174F00774B23 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 52E9A34A2C79174C00774B23;
+					};
+					52E9A3642C79174F00774B23 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 52E9A34A2C79174C00774B23;
+					};
+				};
+			};
+			buildConfigurationList = 52E9A3462C79174C00774B23 /* Build configuration list for PBXProject "toy shop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52E9A3422C79174C00774B23;
+			productRefGroup = 52E9A34C2C79174C00774B23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52E9A34A2C79174C00774B23 /* toy shop */,
+				52E9A35A2C79174F00774B23 /* toy shopTests */,
+				52E9A3642C79174F00774B23 /* toy shopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52E9A3492C79174C00774B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E9A3562C79174E00774B23 /* Preview Assets.xcassets in Resources */,
+				52E9A3532C79174E00774B23 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E9A3592C79174F00774B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E9A3632C79174F00774B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52E9A3472C79174C00774B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E9A3512C79174C00774B23 /* ContentView.swift in Sources */,
+				52E9A34F2C79174C00774B23 /* toy_shopApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E9A3572C79174F00774B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E9A3602C79174F00774B23 /* toy_shopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E9A3612C79174F00774B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E9A36C2C79174F00774B23 /* toy_shopUITestsLaunchTests.swift in Sources */,
+				52E9A36A2C79174F00774B23 /* toy_shopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52E9A35D2C79174F00774B23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52E9A34A2C79174C00774B23 /* toy shop */;
+			targetProxy = 52E9A35C2C79174F00774B23 /* PBXContainerItemProxy */;
+		};
+		52E9A3672C79174F00774B23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52E9A34A2C79174C00774B23 /* toy shop */;
+			targetProxy = 52E9A3662C79174F00774B23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52E9A36D2C79174F00774B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52E9A36E2C79174F00774B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52E9A3702C79174F00774B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"toy shop/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Toy Trove";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.toy-shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		52E9A3712C79174F00774B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"toy shop/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Toy Trove";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.toy-shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		52E9A3732C79174F00774B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.toy-shopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toy shop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/toy shop";
+			};
+			name = Debug;
+		};
+		52E9A3742C79174F00774B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.toy-shopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toy shop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/toy shop";
+			};
+			name = Release;
+		};
+		52E9A3762C79174F00774B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.toy-shopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "toy shop";
+			};
+			name = Debug;
+		};
+		52E9A3772C79174F00774B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.toy-shopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "toy shop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52E9A3462C79174C00774B23 /* Build configuration list for PBXProject "toy shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E9A36D2C79174F00774B23 /* Debug */,
+				52E9A36E2C79174F00774B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E9A36F2C79174F00774B23 /* Build configuration list for PBXNativeTarget "toy shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E9A3702C79174F00774B23 /* Debug */,
+				52E9A3712C79174F00774B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E9A3722C79174F00774B23 /* Build configuration list for PBXNativeTarget "toy shopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E9A3732C79174F00774B23 /* Debug */,
+				52E9A3742C79174F00774B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E9A3752C79174F00774B23 /* Build configuration list for PBXNativeTarget "toy shopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E9A3762C79174F00774B23 /* Debug */,
+				52E9A3772C79174F00774B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52E9A3432C79174C00774B23 /* Project object */;
+}
